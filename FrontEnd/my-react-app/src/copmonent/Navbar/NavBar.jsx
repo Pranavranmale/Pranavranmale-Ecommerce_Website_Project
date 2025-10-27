@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <div className="nav-bar">
       <div className="NavLogo">
-        <Link to="/"><img src="src/assets/logo.webp" alt="Logo" className="h-16 w-16" /></Link>
+        <Link to="/"><img src="src/assets/logo.webp" alt="Logo" className="h-10 w-10" /></Link>
       <p className=".nav-logo p">Shopify</p>
       </div>
       
