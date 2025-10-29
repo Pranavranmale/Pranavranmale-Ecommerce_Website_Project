@@ -26,7 +26,7 @@ const CartItems = () => {
                                 {cartItems[e.id]}
                             </button>
                             <p>{e.new_price*cartItems[e.id]}</p>
-                            <img src={remove_icon} alt="" onClick={()=> removeFromCart(e.id)} height="20px"/>
+                            <img src={remove_icon} alt="" onClick={()=> removeFromCart(e.id)} className='h-5'/>
                         </div>
                         <hr/>
                     </div>
@@ -58,7 +58,7 @@ const CartItems = () => {
                     <p>If you have a promo code, Enter it here</p>
                     <div className="cartitems-promobox">
                         <input type='text' placeholder='promo code'/>
-                        <button>submit</button>
+                        <button className='mt-5 ml-14'>submit</button>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-.cartitems{
+.cartItems{
     margin: 50px 70px;
 }
 .cartitems hr{
@@ -16,7 +16,7 @@
     font-size: 18px;
     font-weight: 600;
 }
-.cartitems-format{
+.cartItems-format{
     font-size: 15px;
     font-weight: 500;
 }
